@@ -33,11 +33,10 @@ public class Calculator {
                 result = operand1 * operand2;
                 break;
             case "/":
-                if (operand1!=0) {
-                    if (operand2!=0){
+                if (operand1!=0 && operand2!=0) {
                 result = operand1 / operand2;
                 break;
-                   }}
+                   }
         default:
                 System.out.print("Ошибка, введите корретные данные");
                 return;
