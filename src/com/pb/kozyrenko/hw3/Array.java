@@ -10,9 +10,14 @@ public class Array {
         int[] array = new int[10];
         int sum = 0;
         System.out.println("Введите число:");
-        for(int i=0; i < 10; i++)
-        {
-            array[i] = scanner.nextInt();}
+        for(int i=0; i < 10; i++) {
+            array[i] = scanner.nextInt();
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
 
         for(int num : array)
         {
